@@ -3,7 +3,7 @@
 - 📫 telegram @udodelighed
 - [portfolio](https://luvor.github.io/portfolio/)
 
-### Projects
+### private repo projects
 - [Chatluvor (Vue|Firebase)](https://chatluvor-5a84b.web.app/)
 
 <!---
