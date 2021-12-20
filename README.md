@@ -6,6 +6,7 @@
 ### private repo projects
 - [Chatluvor (Vue|Firebase)](https://chatluvor-5a84b.web.app/)
 - [AUKO](https://luvor.github.io/auko/)
+- [Dynamic flex](https://luvor.github.io/dynamicflex/)
 
 <!---
 luvor/luvor is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
