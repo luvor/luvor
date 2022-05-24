@@ -10,7 +10,7 @@ name - description(link) | elapsed time
 - [AUKO - event management system (demo for hackathon)](https://luvor.github.io/auko/) | [24 hours]
 - [Dynamic flex - demo how css flex works](https://luvor.github.io/dynamicflex/) | [2 days]
 - [Cakemake - cakemaker on Vue](https://luvor.github.io/cakemake/) | [1 day]
-- [Rosmarin App Website - website for Rosmarin project](https://rosmarin.netlify.app/)[5 days]
+- [Rosmarin App Website - website for Rosmarin project](https://rosmarin.netlify.app/) | [5 days]
 ### public repo projects 💐
 name - description(link) | elapsed time
 - [Edelweiss - simple movie website on React.TS](https://luvor.github.io/dar_tasks-edelweiss/) | [1 day]
