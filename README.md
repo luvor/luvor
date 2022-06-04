@@ -1,5 +1,5 @@
 ### 👋 Hi, I’m roteluvor aka Islambek Chynybekov
-- 👀 I’m interested in web design, photography, travelling, dataScience, ML, making website and cool servises
+- 👀 I’m interested in web design, photography, travelling, dataScience, ML, making website and cool services
 - 📫 telegram @udodelighed
 - 💌 mail formalibus@gmail.com
 <!-- - [portfolio](https://luvor.github.io/portfolio/) -->
