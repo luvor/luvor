@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Islambek Chynybekov — Frontend Developer & Designer</title>
+  <meta name="description" content="Portfolio of Islambek Chynybekov — Frontend Developer, Designer, and Data Science enthusiast. Building cool products with modern technologies.">
+  <meta name="theme-color" content="#000000">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <!-- Cursor glow effect -->
+  <div id="cursor-glow" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar" class="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">IC</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Available for work
+      </div>
+      <h1 class="hero-title">
+        <span class="reveal-line"><span>Islambek</span></span>
+        <span class="reveal-line"><span>Chynybekov</span></span>
+      </h1>
+      <p class="hero-subtitle reveal">
+        Frontend Developer & Designer crafting<br>
+        <span class="gradient-text">digital experiences</span> that matter.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">
+          View Work
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-scroll-indicator reveal">
+        <div class="scroll-line"></div>
+        <span>Scroll to explore</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="about-image-wrapper reveal-scale">
+            <div class="about-image">
+              <div class="image-placeholder">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg>
+                <span>Your Photo</span>
+              </div>
+            </div>
+            <div class="about-image-glow"></div>
+          </div>
+          <div class="about-stats">
+            <div class="stat reveal">
+              <span class="stat-number" data-count="3">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Years Experience</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat-number" data-count="20">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Projects Completed</span>
+            </div>
+            <div class="stat reveal">
+              <span class="stat-number" data-count="10">0</span><span class="stat-suffix">+</span>
+              <span class="stat-label">Happy Clients</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content">
+          <span class="section-label reveal">About Me</span>
+          <h2 class="section-title reveal">
+            Passionate about building<br>
+            <span class="gradient-text">beautiful products</span>
+          </h2>
+          <p class="about-text reveal">
+            Hi, I'm Islambek — a Frontend Developer based in Kyrgyzstan with a deep passion
+            for design, data science, and machine learning. I specialize in creating intuitive,
+            performant web applications that bridge the gap between stunning design and robust engineering.
+          </p>
+          <p class="about-text reveal">
+            When I'm not coding, I'm exploring the latest in AI/ML, experimenting with new design
+            tools, or contributing to open-source projects. I believe in the power of technology
+            to create meaningful impact.
+          </p>
+          <div class="about-tags reveal">
+            <span class="tag">Frontend Development</span>
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">Data Science</span>
+            <span class="tag">Machine Learning</span>
+            <span class="tag">Product Design</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Skills & Tools</span>
+        <h2 class="section-title reveal">
+          Technologies I work with
+        </h2>
+      </div>
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category reveal-scale">
+          <div class="skill-category-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Frontend</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-dot"></span>React / Next.js</div>
+            <div class="skill-item"><span class="skill-dot"></span>TypeScript</div>
+            <div class="skill-item"><span class="skill-dot"></span>Vue.js / Nuxt</div>
+            <div class="skill-item"><span class="skill-dot"></span>Tailwind CSS</div>
+            <div class="skill-item"><span class="skill-dot"></span>HTML / CSS / SASS</div>
+            <div class="skill-item"><span class="skill-dot"></span>JavaScript (ES6+)</div>
+          </div>
+        </div>
+        <!-- Design -->
+        <div class="skill-category reveal-scale">
+          <div class="skill-category-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="2.5"/><path d="M17 2H7a5 5 0 0 0-5 5v10a5 5 0 0 0 5 5h10a5 5 0 0 0 5-5V7a5 5 0 0 0-5-5Z"/><path d="M2 12h20"/></svg>
+          </div>
+          <h3>Design</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-dot"></span>Figma</div>
+            <div class="skill-item"><span class="skill-dot"></span>Adobe Photoshop</div>
+            <div class="skill-item"><span class="skill-dot"></span>Adobe Illustrator</div>
+            <div class="skill-item"><span class="skill-dot"></span>UI/UX Design</div>
+            <div class="skill-item"><span class="skill-dot"></span>Prototyping</div>
+            <div class="skill-item"><span class="skill-dot"></span>Design Systems</div>
+          </div>
+        </div>
+        <!-- Data & ML -->
+        <div class="skill-category reveal-scale">
+          <div class="skill-category-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Data & ML</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-dot"></span>Python</div>
+            <div class="skill-item"><span class="skill-dot"></span>TensorFlow / PyTorch</div>
+            <div class="skill-item"><span class="skill-dot"></span>Pandas / NumPy</div>
+            <div class="skill-item"><span class="skill-dot"></span>Data Visualization</div>
+            <div class="skill-item"><span class="skill-dot"></span>Jupyter Notebooks</div>
+            <div class="skill-item"><span class="skill-dot"></span>SQL</div>
+          </div>
+        </div>
+        <!-- Tools -->
+        <div class="skill-category reveal-scale">
+          <div class="skill-category-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3>Tools & Other</h3>
+          <div class="skill-items">
+            <div class="skill-item"><span class="skill-dot"></span>Git / GitHub</div>
+            <div class="skill-item"><span class="skill-dot"></span>Docker</div>
+            <div class="skill-item"><span class="skill-dot"></span>CI/CD</div>
+            <div class="skill-item"><span class="skill-dot"></span>REST API / GraphQL</div>
+            <div class="skill-item"><span class="skill-dot"></span>Node.js</div>
+            <div class="skill-item"><span class="skill-dot"></span>Webpack / Vite</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section (Interactive CV) -->
+  <section id="experience" class="section experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Experience</span>
+        <h2 class="section-title reveal">
+          My professional <span class="gradient-text">journey</span>
+        </h2>
+      </div>
+      <div class="cv-interactive">
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true">
+            <div class="timeline-progress"></div>
+          </div>
+
+          <div class="timeline-item reveal-slide">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-date">2023 — Present</div>
+              <h3 class="timeline-role">Frontend Developer</h3>
+              <p class="timeline-company">Current Company</p>
+              <p class="timeline-desc">
+                Building modern, responsive web applications using React and TypeScript.
+                Leading frontend architecture decisions and implementing design systems
+                for consistent user experiences.
+              </p>
+              <div class="timeline-tags">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>Tailwind</span>
+                <span>Next.js</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal-slide">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-date">2022 — 2023</div>
+              <h3 class="timeline-role">Junior Frontend Developer</h3>
+              <p class="timeline-company">Previous Company</p>
+              <p class="timeline-desc">
+                Developed and maintained web interfaces with a focus on performance and accessibility.
+                Collaborated closely with designers to implement pixel-perfect layouts.
+              </p>
+              <div class="timeline-tags">
+                <span>Vue.js</span>
+                <span>JavaScript</span>
+                <span>SASS</span>
+                <span>REST API</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal-slide">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-date">2021 — 2022</div>
+              <h3 class="timeline-role">Freelance Developer & Designer</h3>
+              <p class="timeline-company">Self-Employed</p>
+              <p class="timeline-desc">
+                Designed and developed websites for local businesses. Created brand identities,
+                UI/UX designs, and full-stack web solutions.
+              </p>
+              <div class="timeline-tags">
+                <span>HTML/CSS</span>
+                <span>JavaScript</span>
+                <span>Figma</span>
+                <span>WordPress</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CV Download -->
+        <div class="cv-download reveal">
+          <div class="cv-download-inner">
+            <div class="cv-download-text">
+              <h3>Want the full story?</h3>
+              <p>Download my complete CV for a detailed overview of my experience and skills.</p>
+            </div>
+            <a href="#" class="btn btn-primary">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+              Download CV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Projects</span>
+        <h2 class="section-title reveal">
+          Selected <span class="gradient-text">work</span>
+        </h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal-scale" data-tilt>
+          <div class="project-image">
+            <div class="image-placeholder project-placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>API</span>
+            </div>
+            <h3>E-Commerce Platform</h3>
+            <p>A modern e-commerce platform with real-time inventory, smooth animations, and seamless checkout experience.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                View Project
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="#" class="project-link">
+                GitHub
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12l8-8M6 4h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-scale" data-tilt>
+          <div class="project-image">
+            <div class="image-placeholder project-placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>Python</span>
+              <span>ML</span>
+              <span>Data Viz</span>
+            </div>
+            <h3>ML Dashboard</h3>
+            <p>Interactive dashboard for visualizing machine learning model performance with real-time data streaming.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                View Project
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="#" class="project-link">
+                GitHub
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12l8-8M6 4h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-scale" data-tilt>
+          <div class="project-image">
+            <div class="image-placeholder project-placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>Figma</span>
+              <span>UI/UX</span>
+              <span>Branding</span>
+            </div>
+            <h3>Brand Identity System</h3>
+            <p>Complete brand identity and design system for a tech startup, including logo, typography, and component library.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                View Case Study
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal-scale" data-tilt>
+          <div class="project-image">
+            <div class="image-placeholder project-placeholder">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-tags">
+              <span>Next.js</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+            <h3>Portfolio Generator</h3>
+            <p>A SaaS tool that helps developers create beautiful portfolio websites in minutes with customizable templates.</p>
+            <div class="project-links">
+              <a href="#" class="project-link">
+                Live Demo
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="#" class="project-link">
+                GitHub
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M4 12l8-8M6 4h6v6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section education">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label reveal">Education</span>
+        <h2 class="section-title reveal">
+          Learning never <span class="gradient-text">stops</span>
+        </h2>
+      </div>
+      <div class="education-grid">
+        <div class="education-card reveal-slide">
+          <div class="education-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.1 2.7 2 6 2s6-.9 6-2v-5"/></svg>
+          </div>
+          <div class="education-date">2019 — 2023</div>
+          <h3>Bachelor's Degree</h3>
+          <p class="education-school">Computer Science</p>
+          <p class="education-desc">Focused on software engineering, algorithms, and data structures. Participated in hackathons and coding competitions.</p>
+        </div>
+        <div class="education-card reveal-slide">
+          <div class="education-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/></svg>
+          </div>
+          <div class="education-date">2023</div>
+          <h3>Online Certifications</h3>
+          <p class="education-school">Various Platforms</p>
+          <p class="education-desc">Advanced React patterns, Machine Learning specialization, UI/UX Design professional certificate.</p>
+        </div>
+        <div class="education-card reveal-slide">
+          <div class="education-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="education-date">Ongoing</div>
+          <h3>Self Learning</h3>
+          <p class="education-school">Open Source & Community</p>
+          <p class="education-desc">Continuously learning through open-source contributions, tech blogs, conferences, and building personal projects.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="contact-inner">
+        <span class="section-label reveal">Contact</span>
+        <h2 class="contact-title reveal">
+          Let's build something<br>
+          <span class="gradient-text">amazing together</span>
+        </h2>
+        <p class="contact-subtitle reveal">
+          I'm always open to new opportunities, collaborations, and interesting conversations.
+          Feel free to reach out!
+        </p>
+        <div class="contact-links reveal">
+          <a href="mailto:formalibus@gmail.com" class="contact-card">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            <span class="contact-card-label">Email</span>
+            <span class="contact-card-value">formalibus@gmail.com</span>
+          </a>
+          <a href="https://github.com/roteluvor" target="_blank" rel="noopener" class="contact-card">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            <span class="contact-card-label">GitHub</span>
+            <span class="contact-card-value">@roteluvor</span>
+          </a>
+          <a href="https://t.me/roteluvor" target="_blank" rel="noopener" class="contact-card">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            <span class="contact-card-label">Telegram</span>
+            <span class="contact-card-value">@roteluvor</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p>&copy; 2026 Islambek Chynybekov. All rights reserved.</p>
+        <p class="footer-note">Designed & built with care.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/particles.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
