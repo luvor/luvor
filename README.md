@@ -2,7 +2,7 @@
 
 I'm buying an island!
 
-Frontend Team Lead and hands-on product builder in Astana. I ship apps, work with teams, and test how products find users.
+Product designer and developer in Astana. Frontend Team Lead at Halyk Finservice. I ship apps, work with teams, and test how products find users.
 
 [Personal site & recommendations](https://chynybekov.com/) · [Portfolio](https://luvor.github.io/) · [LinkedIn](https://www.linkedin.com/in/luvor/)
 
@@ -16,8 +16,3 @@ Frontend Team Lead and hands-on product builder in Astana. I ship apps, work wit
 I keep a clear line between what is live, what is an experiment, and what still needs evidence. More context is on my [personal site](https://chynybekov.com/), and I’m always happy to talk about a strong product idea.
 
 💌 [theluruous@icloud.com](mailto:theluruous@icloud.com)
-
-<!---
-luvor/luvor is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
